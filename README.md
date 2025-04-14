@@ -1,2 +1,2 @@
-# SmartEcoGuildeSystem
+# SmartEcoGuideSystem
 Computing Technology Innovation Project
