@@ -1,0 +1,144 @@
+[
+    {
+        "id": "p001",
+        "name": "Bako National Park",
+        "description": "Sarawak's oldest national park, known for diverse ecosystems and wildlife including proboscis monkeys.",
+        "location": {
+            "latitude": 1.7167,
+            "longitude": 110.4667
+        },
+        "area": "27.27 sq km",
+        "established": "1957",
+        "features": [
+            "Beaches",
+            "Jungle trails",
+            "Proboscis monkeys",
+            "Sea stacks"
+        ],
+        "facilities": [
+            "Accommodation",
+            "Canteen",
+            "Guided tours"
+        ],
+        "trails": [
+            {
+                "id": "t001",
+                "name": "Paku Trail",
+                "distance": "2.8 km",
+                "difficulty": "Easy",
+                "duration": "1.5 hours",
+                "highlights": [
+                    "Pitcher plants",
+                    "Beach view"
+                ]
+            },
+            {
+                "id": "t002",
+                "name": "Lintang Trail",
+                "distance": "5.25 km",
+                "difficulty": "Moderate",
+                "duration": "3.5 hours",
+                "highlights": [
+                    "Forest ecosystems",
+                    "Wildlife spotting"
+                ]
+            }
+        ],
+        "wildlife": [
+            {
+                "name": "Proboscis Monkey",
+                "scientificName": "Nasalis larvatus",
+                "category": "Mammal",
+                "conservationStatus": "Endangered"
+            },
+            {
+                "name": "Bornean Bearded Pig",
+                "scientificName": "Sus barbatus",
+                "category": "Mammal",
+                "conservationStatus": "Vulnerable"
+            }
+        ],
+        "images": [
+            "/images/parks/bako1.jpg",
+            "/images/parks/bako2.jpg"
+        ],
+        "featured": true,
+        "ecoTips": [
+            "Respect wildlife and maintain a safe distance.",
+            "Stay on marked trails to avoid damaging vegetation.",
+            "Carry out all your trash."
+        ]
+    },
+    {
+        "id": "p002",
+        "name": "Gunung Mulu National Park",
+        "description": "UNESCO World Heritage Site featuring remarkable caves, karst formations, and rich biodiversity.",
+        "location": {
+            "latitude": 4.0500,
+            "longitude": 114.8167
+        },
+        "area": "528.64 sq km",
+        "established": "1974",
+        "features": [
+            "Caves",
+            "Limestone pinnacles",
+            "Rainforest",
+            "Bat exodus"
+        ],
+        "facilities": [
+            "Accommodation",
+            "Restaurant",
+            "Visitor center",
+            "Guided tours"
+        ],
+        "trails": [
+            {
+                "id": "t003",
+                "name": "Pinnacles Trail",
+                "distance": "8.4 km",
+                "difficulty": "Hard",
+                "duration": "2-3 days",
+                "highlights": [
+                    "Limestone pinnacles",
+                    "Camp 5"
+                ]
+            },
+            {
+                "id": "t004",
+                "name": "Canopy Walk",
+                "distance": "1.5 km",
+                "difficulty": "Easy",
+                "duration": "1 hour",
+                "highlights": [
+                    "Treetop views",
+                    "Birdwatching"
+                ]
+            }
+        ],
+        "wildlife": [
+            {
+                "name": "Wrinkled Hornbill",
+                "scientificName": "Aceros corrugatus",
+                "category": "Bird",
+                "conservationStatus": "Endangered"
+            },
+            {
+                "name": "Clouded Leopard",
+                "scientificName": "Neofelis nebulosa",
+                "category": "Mammal",
+                "conservationStatus": "Vulnerable"
+            }
+        ],
+        "images": [
+            "/images/parks/mulu1.jpg",
+            "/images/parks/mulu2.jpg"
+        ],
+        "featured": true,
+        "ecoTips": [
+            "Avoid touching cave formations.",
+            "Be quiet inside caves to not disturb wildlife.",
+            "Dress appropriately for humid and wet conditions."
+        ]
+    }
+    
+]

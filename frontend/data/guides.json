@@ -1,0 +1,65 @@
+[
+    {
+        "id": "g001",
+        "name": "Ahmad bin Ali",
+        "expertise": [
+            "Nature",
+            "Wildlife",
+            "Birdwatching"
+        ],
+        "licensedParks": [
+            "p001",
+            "p002"
+        ], 
+        "contact": {
+            "email": "ahmad.ali@example.com",
+            "phone": "+60123456789"
+        },
+        "availability": "Weekends and Public Holidays",
+        "languages": [
+            "Malay",
+            "English"
+        ],
+        "certifications": [
+            "Certified Nature Guide (Level 2)",
+            "First Aid Certified"
+        ],
+        "ratings": 4.8,
+        "reviewsCount": 25,
+        "image": "/images/guides/ahmad.jpg",
+        "bio": "Ahmad has been a passionate nature guide in Sarawak for over 10 years...",
+        "ecoCommitment": "Promotes responsible tourism and educates visitors on conservation efforts."
+    },
+    {
+        "id": "g002",
+        "name": "Siti binti Osman",
+        "expertise": [
+            "History",
+            "Ecology",
+            "Local Culture"
+        ],
+        "licensedParks": [
+            "p003"
+        ], 
+        "contact": {
+            "email": "siti.osman@example.com",
+            "phone": "+60112345670"
+        },
+        "availability": "Monday to Friday",
+        "languages": [
+            "Malay",
+            "English",
+            "Iban"
+        ],
+        "certifications": [
+            "Certified Cultural Guide (Level 1)",
+            "Wilderness First Responder"
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 18,
+        "image": "/images/guides/siti.jpg",
+        "bio": "Siti has a deep understanding of Sarawak's history and the rich cultural heritage...",
+        "ecoCommitment": "Supports local communities and emphasizes sustainable cultural tourism."
+    }
+    
+]

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up - Sarawak Park Guide System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-tree"></i>
+                Sarawak Park Guide System
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="parks.html">Parks</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Account Login & Sign Up</h1>
+                <p>Log in to access your account or create a new one to join our community.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="auth">
+        <div class="container auth-container">
+            <div id="login-form" class="auth-form active">
+                <h2>Login</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="login-email">Email:</label>
+                        <input type="email" id="login-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password:</label>
+                        <input type="password" id="login-password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Login</button>
+                    </div>
+                    <div class="error-message" id="login-error"></div>
+                </form>
+                <div class="auth-switch">
+                    <button type="button" onclick="showSignupForm()">Don't have an account? Sign Up</button>
+                </div>
+            </div>
+
+            <div id="signup-form" class="auth-form">
+                <h2>Sign Up</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="signup-name">Name:</label>
+                        <input type="text" id="signup-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email:</label>
+                        <input type="email" id="signup-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password:</label>
+                        <input type="password" id="signup-password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-confirm-password">Confirm Password:</label>
+                        <input type="password" id="signup-confirm-password" name="confirm-password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Sign Up</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="google-signup-button">
+                            <i class="fab fa-google"></i> Sign Up with Google
+                        </button>
+                    </div>
+                    <div class="error-message" id="signup-error"></div>
+                </form>
+                <div class="auth-switch">
+                    <button type="button" onclick="showLoginForm()">Already have an account? Login</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Sarawak Forestry Corporation</h3>
+                    <p>Preserving Sarawak's national parks and nature reserves through professional guiding and
+                        sustainable practices.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About the Program</a></li>
+                        <li><a href="parks.html">Parks Map</a></li>
+                        <li><a href="guides.html">Find a Guide</a></li>
+                        <li><a href="login.html">Guide Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <address>
+                        Sarawak Forestry Corporation<br>
+                        Lot 218, KCLD, Jalan Tapang, Kota Sentosa<br>
+                        93250 Kuching, Sarawak, Malaysia<br>
+                        <a href="mailto:info@sarawakforestry.com">info@sarawakforestry.com</a>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="current-year"></span> Sarawak Forestry Corporation. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initially show the login form
+            document.getElementById('login-form').classList.add('active');
+        });
+
+        function showLoginForm() {
+            document.getElementById('signup-form').classList.remove('active');
+            document.getElementById('login-form').classList.add('active');
+        }
+
+        function showSignupForm() {
+            document.getElementById('login-form').classList.remove('active');
+            document.getElementById('signup-form').classList.add('active');
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
