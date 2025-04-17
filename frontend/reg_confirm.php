@@ -21,8 +21,8 @@ if (isset($_POST['g-recaptcha-response'])) {
             
             // Check if passwords match
             if ($_POST['password'] === $_POST['confirm-password']) {
-                $conn = @mysqli_connect("localhost", "phpadmin", "Norman1095") or die("Unable to connect to database.");
-                @mysqli_select_db($conn, "dbino") or die("Unable to select database");
+                $conn = @mysqli_connect("localhost", "root", "") or die("Unable to connect to database.");
+                @mysqli_select_db($conn, "dbsegs") or die("Unable to select database");
 
                 $fname = $_POST['fname'];
                 $email = $_POST['email'];

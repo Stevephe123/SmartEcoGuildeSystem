@@ -16,6 +16,7 @@
     <title>Login & Sign Up - Sarawak Park Guide System</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -42,8 +43,8 @@
         } 
 		else {
             // Proceed with login logic only if reCAPTCHA is successful
-            $conn = @mysqli_connect("localhost", "phpadmin", "Norman1095") or die("Unable to connect to database.");
-            @mysqli_select_db($conn, "dbino") or die ("Unable to select database");
+            $conn = @mysqli_connect("localhost", "root", "") or die("Unable to connect to database.");
+            @mysqli_select_db($conn, "dbsegs") or die ("Unable to select database");
 
             $id = strtolower(mysqli_escape_string($conn, $_POST['email']));
 			$pass = hash('sha256',$_POST["password"]);
