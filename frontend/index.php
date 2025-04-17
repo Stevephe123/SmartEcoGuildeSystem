@@ -1,5 +1,40 @@
 <?php include 'header.php'; ?>
-
+<?php
+//This is a session expired code
+//	session_start();
+//	
+//	// prevent multiple logins
+//	if (!isset($_SESSION['session_id'])){
+//		
+//        header("Location:login.php");
+//	}
+//	
+//	// Auto logout user after 5 minutes (300 seconds) of inactivity
+//	$_SESSION['timesup'] = false;
+//	if (isset($_SESSION['time']) && ((time()-$_SESSION['time'])>300)){
+//		$_SESSION['timesup'] = true;
+//		header("Location: login.php");
+//	} else { // Update time if still active
+//		$time = time();
+//		if (isset($_SESSION['email'])){
+//			$email = $_SESSION['email'];
+//		//}
+//		
+//            $conn = @mysqli_connect("localhost","phpadmin","Norman1095") or die("Unable to connect to database.");
+//            @mysqli_select_db($conn,"dbino") or die ("Unable to select database");
+//            
+//            $update_session = "UPDATE userlist SET time='$time' WHERE email='$email'";
+//            
+//            // Execute query
+//            @mysqli_query($conn, $update_session);
+//            
+//            @mysqli_close($conn);
+//            $_SESSION['time'] = $time;
+//        }
+//	}
+//	
+//	
+?>
 <section class="hero">
     <div class="container">
         <div class="hero-content">
