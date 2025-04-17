@@ -1,9 +1,9 @@
 	<?php
 	error_reporting(0);
-	$Username = "PHPUser";
-	$Password = "meiyoupassword";
+	$Username = "root";
+	$Password = "";
 	$LocalHost = "localhost";
-	$dbName = "dbino";
+	$dbName = "dbsegs";
 
 	/*Set your localhost username and password at above*/
 
