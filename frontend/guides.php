@@ -12,8 +12,7 @@
 </head>
 
 <body>
-    <section class="hero">
-        <div class="container">
+    <section id="hero-section">
             <div class="hero-content">
                 <h1>Meet Our Certified Park Guides</h1>
                 <p>Discover the expertise and passion of our certified guides who are dedicated to enhancing your park

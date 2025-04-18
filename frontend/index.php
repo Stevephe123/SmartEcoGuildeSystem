@@ -35,19 +35,17 @@
 //	
 //	
 ?>
-<section class="hero">
-    <div class="container">
-        <div class="hero-content">
+<!-- Hero Section -->
+    <section id="hero-section">
+        <div class="hero-overlay">
             <h1>Explore Sarawak's Natural Wonders</h1>
-            <p>Discover the rich biodiversity and natural heritage of Sarawak's National Parks and Nature Reserves
-                with our certified park guides.</p>
+            <p>Discover the rich biodiversity and natural heritage of Sarawak’s National Parks and Nature Reserves with our certified park guides.</p>
             <div class="hero-buttons">
-                <a href="parks.php" class="btn">Explore Parks</a>
-                <a href="register.php" class="btn btn-outline">Become a Guide</a>
+                <a href="#" class="btn">Explore Parks</a>
+                <a href="#" class="btn outline">Become a Guide</a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <section class="features">
     <div class="container">
