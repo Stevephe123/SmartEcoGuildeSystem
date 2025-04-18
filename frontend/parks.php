@@ -1,8 +1,7 @@
 <?php include 'header.php'; ?>
 
-<section class="hero">
-    <div class="container">
-        <div class="hero-content">
+<section id="hero-section">
+    <div class="hero-content">
             <h1>Explore All National Parks of Sarawak</h1>
             <p>Discover the diverse beauty and ecological significance of Sarawak's National Parks and Nature Reserves.</p>
         </div>

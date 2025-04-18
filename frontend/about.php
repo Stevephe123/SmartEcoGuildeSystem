@@ -12,15 +12,12 @@
 </head>
 
 <body>
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>About the Sarawak Park Guide System</h1>
-                <p>Learn more about our mission to connect visitors with the natural wonders of Sarawak through
-                    certified guides and digital resources.</p>
-            </div>
-        </div>
-    </section>
+<section id="hero-section">
+    <div class="hero-content">
+        <h2>About the Sarawak Park Guide System</h2>
+        <p>Learn more about our mission to connect visitors with the natural wonders of Sarawak through certified guides and digital resources.</p>
+    </div>
+</section>
 
     <section class="about-content">
         <div class="container">
@@ -37,11 +34,13 @@
             <div class="team-grid">
                 <div class="team-member">
                     <h3>Team Member 1</h3>
-                    <p>Role/Description</p>
+                    <h3>Alicia Tan – Lead Conservation Specialist</h3>
+                    <p>Alicia brings over 10 years of experience in wildlife research and conservation in Borneo. She works closely with local park rangers and scientists to ensure that ecological information shared with visitors is accurate, engaging, and up-to-date.<p>
                 </div>
                 <div class="team-member">
                     <h3>Team Member 2</h3>
-                    <p>Role/Description</p>
+                    <h3>Jason Lee – Lead Software Developer</h3>
+                    <p>Jason is the technical backbone of the Sarawak Park Guide System. With a passion for nature and technology, he develops and maintains the digital platforms that connect visitors with certified guides and provide seamless access to park information.<p>
                 </div>
             </div>
         </div>
