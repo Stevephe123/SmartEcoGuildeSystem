@@ -38,7 +38,7 @@
 <!-- Hero Section -->
     <section id="hero-section">
         <div class="hero-overlay">
-            <h1>Explore Sarawak's Natural Wonders TEST</h1>
+            <h1>Explore Sarawak's Natural Wonders</h1>
             <p>Discover the rich biodiversity and natural heritage of Sarawak’s National Parks and Nature Reserves with our certified park guides.</p>
             <div class="hero-buttons">
                 <a href="#" class="btn">Explore Parks</a>
