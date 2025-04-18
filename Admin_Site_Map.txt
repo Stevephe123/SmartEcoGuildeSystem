@@ -1,0 +1,29 @@
+/Dashboard
+/Park Guide Module
+    /add-park-guide
+    /manage-park-guide
+    /assign-training
+    /performance-monitoring
+/Training Module
+    /add-training-module
+    /manage-training-module
+    /training-schedule
+/Certification Module
+    /issue-certification
+    /manage-certifications
+    /revoke-certification
+/Visitor Management
+    /view-visitors
+    /manage-feedback
+    /ban-visitor
+/AI Biodiversity Identification
+    /view-identifications
+    /manage-species-database
+    /review-identification-log
+/IoT Device Management
+    /manage-iot-sensors
+    /iot-alerts
+    /iot-alert-history
+/System Management
+    /manage-admins
+    /system-settings
