@@ -115,29 +115,66 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
-.hero {
+#hero-section {
+    position: relative;
     height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/500') no-repeat center center;
     background-size: cover;
-    color: var(--text-light);
+    background-position: center 28%;
+    background-repeat: no-repeat;
+    transition: opacity 1.5s ease-in-out;
+    opacity: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent grey */
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: white;
     text-align: center;
+    padding: 20px;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent grey */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.hero-content {
-    max-width: 700px;
-    margin: 0 auto;
+.hero-buttons .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+.btn {
+    background-color: #2e7d32;
+    color: white;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+.btn.outline {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
 }
 
 /* Features Section */
@@ -487,3 +524,16 @@ footer {
 .google-signup-button i {
     font-size: 1.2rem;
 }
+
+#rotating-bg {
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 2s ease-in-out;
+
+    /* Important: let content control the height */
+    padding: 60px 20px;
+    color: white;
+}
+

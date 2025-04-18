@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const backgrounds = [
+        '../images/background1.jpg',
+        '../images/background2.jpg',
+        '../images/background3.jpeg',
+        '../images/background4.jpg'
+    ];
+    let current = 0;
+    const hero = document.getElementById('hero-section');
+
+    hero.style.backgroundImage = `url('${backgrounds[0]}')`;
+
+    setInterval(() => {
+        current = (current + 1) % backgrounds.length;
+        hero.style.backgroundImage = `url('${backgrounds[current]}')`;
+    }, 3000);
+});
+</script>
+
 <body>
     <header>
         <div class="container header-container">
